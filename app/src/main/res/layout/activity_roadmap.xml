@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Roadmap">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="
+  Bienvenue sur l'application Cloudsdale Radio.
+    Celle ci est encore en developement.
+    pour l'instant elle ne fait pas grand choses.
+    seulement lire le flux de la radio.
+    Par la suite nous avons prévue d'ajouter:
+        le Song Request,
+        Le player Live,
+        et autre fonctionalité de la radio.
+    Nous allons également ajouter toutes les pages disponible sur le site.
+
+    Cependent pour le moment nous avons encore quelques difficulter sur certains points. Notament coté connection avec le broadcaster." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:text="Cloudsdale Radio"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Cloudsdale Radio" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="366dp"
+        android:layout_height="37dp"
+        android:text="Roadmap"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="45dp"
+        tools:text="Roadmap" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="346dp"
+        android:layout_height="94dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Si vous trouvez un Bug parlez en sur Discord! ceci est important pour nous. Une liste des bug connue est dispo sur le site https://CloudsdaleRadio.com/app/bug" />
+</android.support.constraint.ConstraintLayout>
